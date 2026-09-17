@@ -1,0 +1,53 @@
+header
+/*
+filename:[]
+author:[]
+created:[]
+last modified:[]
+description:[]
+*/
+
+selector { 
+    property1: value1; 
+    property2: value2;
+}
+    
+h1 {color:purple; 
+    font-size: 2em; 
+    font-weight: bold
+}
+
+h3{color:red}
+
+ * { font-family: calibri, sans-serif; }  
+
+ h2{color:rgb(0,128,128)}
+
+  aside, footer { font-style: italic; } 
+
+table,th,td {
+    border:2px solid black
+}
+
+.special {
+    color: darkorange;
+    font-weight:bold;
+         }      
+
+nav a {
+          text-decoration: none;
+          padding:0.2em 0.6em;
+          border: 4px solid #ccc;
+         }    
+      
+ol{list-style-type: lower-roman;}
+ul{list-style-type:square}
+
+HTML:
+<aside> This is advertisement material </aside>
+
+CSS File:
+aside:hover {
+    display: none;
+}
+    
